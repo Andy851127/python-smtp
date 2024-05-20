@@ -2,7 +2,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 content = MIMEMultipart()  #建立MIMEMultipart物件
 content["subject"] = "Learn Code With Mike"  #郵件標題
-content["from"] = xxx@gmail.com"  #寄件者
+content["from"] = "xxx@gmail.com"  #寄件者
 content["to"] = "xxx@gmail.com" #收件者
 content.attach(MIMEText("Demo python send email"))  #郵件內容
 
